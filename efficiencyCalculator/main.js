@@ -44,12 +44,5 @@ Game.registerMod("effcalc",{
 				l('effuck').innerHTML = efficiencyStr;
 			}
 		});
-	},
-	save:function(){
-		//use this to store persistent data associated with your mod
-		//note: as your mod gets more complex, you should consider storing a stringified JSON instead
-	},
-	load:function(str){
-		//do stuff with the string data you saved previously
 	}
 });
